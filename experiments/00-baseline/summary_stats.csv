@@ -1,0 +1,11 @@
+,mean,std,cv_%
+cpu_bogo_ops_s,1273.35,85.6,6.7
+steal_pct,1.59,1.22,76.7
+randread_iops,7404.67,468.04,6.3
+randread_p99_us,33597.33,13999.59,41.7
+randwrite_iops,7079.0,206.43,2.9
+seqread_MiBps,100.0,0.0,0.0
+iperf_same_Gbps,7.22,0.33,4.6
+iperf_routed_Gbps,7.83,0.4,5.1
+ping_same_ms,1.44,0.19,13.2
+ping_routed_ms,1.68,0.31,18.5

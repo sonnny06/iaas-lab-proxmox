@@ -1,0 +1,4 @@
+run,cpu_bogo_ops_s,steal_pct,randread_iops,randread_p99_us,randwrite_iops,seqread_MiBps,iperf_same_Gbps,iperf_routed_Gbps,ping_same_ms,ping_routed_ms
+1,1183.28,3.00,7807,17432,7051,100,6.94,7.44,1.485,2.034
+2,1283.13,0.91,7516,41680,7298,100,7.13,7.81,1.596,1.458
+3,1353.65,0.86,6891,41680,6888,100,7.58,8.24,1.231,1.539

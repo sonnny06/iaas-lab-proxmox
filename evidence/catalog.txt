@@ -1,0 +1,36 @@
+=== VM 101 ===
+cores: 1
+cpulimit: 1
+ipconfig0: ip=10.10.1.11/24,gw=10.10.1.1
+memory: 512
+name: lab-web-01
+net0: virtio=BC:24:11:86:F5:17,bridge=vmbr1
+scsi0: local-lvm:vm-101-disk-0,mbps_rd=100,mbps_wr=100,size=6G
+tags: lab
+=== VM 102 ===
+cores: 1
+cpulimit: 1
+ipconfig0: ip=10.10.1.12/24,gw=10.10.1.1
+memory: 512
+name: lab-app-01
+net0: virtio=BC:24:11:B3:60:EE,bridge=vmbr1
+scsi0: local-lvm:vm-102-disk-0,mbps_rd=100,mbps_wr=100,size=6G
+tags: lab
+=== VM 103 ===
+cores: 1
+cpulimit: 1
+ipconfig0: ip=10.10.2.11/24,gw=10.10.2.1
+memory: 512
+name: lab-db-01
+net0: virtio=BC:24:11:AC:7F:D7,bridge=vmbr2
+scsi0: local-lvm:vm-103-disk-0,mbps_rd=100,mbps_wr=100,size=6G
+tags: lab
+=== VM 104 ===
+cores: 1
+cpulimit: 1
+ipconfig0: ip=10.10.1.20/24,gw=10.10.1.1
+memory: 512
+name: lab-client-01
+net0: virtio=BC:24:11:EF:E3:96,bridge=vmbr1
+scsi0: local-lvm:vm-104-disk-0,mbps_rd=100,mbps_wr=100,size=6G
+tags: lab
