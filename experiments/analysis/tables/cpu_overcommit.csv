@@ -1,0 +1,3 @@
+cores_per_vm,total_vcpu,ratio,per_vcpu,per_vcpu_sd,total,total_sd,steal,pct_of_ref,total_vs_first_pct,cv_pct
+1,2,1.0,1566.58,38.51,3133.17,77.03,3.08,123.03,100.0,2.46
+2,4,2.0,777.99,1.86,3111.96,7.43,71.23,61.1,99.32,0.24

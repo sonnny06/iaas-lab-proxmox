@@ -1,0 +1,5 @@
+k,mode,total_alloc_MB,guest_mem_MB,mean_bogo_per_vm,mean_swapout_MiB,mean_swapin_MiB,max_wa_pct,mean_ping_avg_ms,max_ping_ms,mean_loss_pct,oom_events_total,min_alive_vms
+0.5,off,2936,675,46639.8,0.0,0.0,0,2.88,74.20,0.0,0,4
+1.0,off,5876,1396,18448.4,1264.1,335.3,0,10.22,488.89,0.0,0,4
+1.5,balloon,8812,2115,965.3,1216.5,391.0,0,301.86,7890.56,13.3,9,3
+1.5,off,8812,2115,676.5,1580.1,784.5,0,120.19,3788.44,16.9,9,3

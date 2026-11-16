@@ -1,0 +1,15 @@
+  LV                LSize   Pool Data% 
+  base-9000-disk-0    6.00g data       
+  data                6.80g      65.96 
+  root                8.81g            
+  swap                1.87g            
+  vm-101-cloudinit    0.00g data 9.38  
+  vm-101-disk-0       6.00g data 52.22 
+  vm-102-cloudinit    0.00g data 9.38  
+  vm-102-disk-0       6.00g data 45.68 
+  vm-103-cloudinit    0.00g data 9.38  
+  vm-103-disk-0       6.00g data 45.26 
+  vm-104-cloudinit    0.00g data 9.38  
+  vm-104-disk-0       6.00g data 45.29 
+  vm-9000-cloudinit   0.00g data       
+  vm-999-disk-0     100.00g data 0.00  

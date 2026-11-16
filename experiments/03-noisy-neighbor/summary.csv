@@ -1,0 +1,11 @@
+scenario,state,mean_victim_metric,pct_of_alone,mean_p99_us,ping_avg_ms,ping_p99_ms
+cpu,alone,3141.69,100.0,0,0.513,3.173
+cpu,cpulimit,2305.94,73.4,0,1.359,6.327
+cpu,cpuunits,2823.95,89.9,0,0.625,3.447
+cpu,noisy,1529.27,48.7,0,1.786,6.810
+io,alone,6673.33,100.0,39059,7.014,35.000
+io,limited,7306.33,109.5,30627,4.298,27.667
+io,noisy,4423.67,66.3,47688,2.658,41.767
+net,alone,8.42,100.0,0,0.581,2.687
+net,limited,6.94,82.4,0,0.855,4.717
+net,noisy,3.28,39.0,0,0.915,6.580

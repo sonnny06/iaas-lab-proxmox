@@ -1,0 +1,5 @@
+PING 10.10.1.11 (10.10.1.11) 56(84) bytes of data.
+
+--- 10.10.1.11 ping statistics ---
+45 packets transmitted, 16 received, +24 errors, 64.4444% packet loss, time 45026ms
+rtt min/avg/max/mdev = 0.308/35.385/210.568/66.056 ms, pipe 3
