@@ -1,0 +1,4 @@
+run,snapshot_s,snapshot_lost_pkts,rollback_cmd_s,rto_rollback_s,rollback_data,backup_s,backup_MB,backup_lost_pkts,restore_cmd_s,rto_restore_s,restore_data,mutation_detected
+1,1.3,0,1.0,45.2,PASS,18.6,1178,0,118.5,157.9,PASS,YES
+2,1.4,0,0.9,46.3,PASS,18.1,1174,0,14.2,50.9,PASS,YES
+3,1.3,1,1.1,46.4,PASS,19.9,1172,0,10.6,48.1,PASS,YES

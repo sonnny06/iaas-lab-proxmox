@@ -1,0 +1,4 @@
+freeze guest filesystem
+snapshotting 'drive-scsi0' (backup_storage:103/vm-103-disk-0.qcow2)
+internal qemu snapshot
+thaw guest filesystem

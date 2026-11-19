@@ -1,0 +1,152 @@
+INFO: starting new backup job: vzdump 103 --storage backup_storage --compress zstd --mode snapshot
+INFO: Starting Backup of VM 103 (qemu)
+INFO: Backup started at 2026-11-18 01:18:03
+INFO: status = running
+INFO: VM Name: lab-db-01
+INFO: include disk 'scsi0' 'backup_storage:103/vm-103-disk-0.qcow2' 6G
+INFO: backup mode: snapshot
+INFO: ionice priority: 7
+INFO: snapshots found (not included into backup)
+INFO: creating vzdump archive '/mnt/backup/dump/vzdump-qemu-103-2026_11_18-01_18_03.vma.zst'
+INFO: issuing guest-agent 'fs-freeze' command
+INFO: starting backup via QMP command
+INFO: issuing guest-agent 'fs-thaw' command
+INFO: started backup task '6267f9a6-ea37-40f7-9fcc-3890faa190e0'
+INFO: resuming VM again
+INFO:  22% (1.4 GiB of 6.0 GiB) in 3s, read: 461.6 MiB/s, write: 134.1 MiB/s
+INFO:  29% (1.8 GiB of 6.0 GiB) in 6s, read: 151.0 MiB/s, write: 150.0 MiB/s
+INFO:  35% (2.1 GiB of 6.0 GiB) in 9s, read: 112.4 MiB/s, write: 111.0 MiB/s
+INFO:  42% (2.6 GiB of 6.0 GiB) in 12s, read: 149.8 MiB/s, write: 147.1 MiB/s
+INFO:  46% (2.8 GiB of 6.0 GiB) in 15s, read: 72.5 MiB/s, write: 71.8 MiB/s
+INFO:  47% (2.8 GiB of 6.0 GiB) in 23s, read: 5.9 MiB/s, write: 5.5 MiB/s
+INFO:  49% (3.0 GiB of 6.0 GiB) in 59s, read: 4.6 MiB/s, write: 4.6 MiB/s
+INFO:  53% (3.2 GiB of 6.0 GiB) in 1m 3s, read: 50.8 MiB/s, write: 46.6 MiB/s
+INFO:  54% (3.2 GiB of 6.0 GiB) in 1m 7s, read: 16.3 MiB/s, write: 16.1 MiB/s
+INFO:  55% (3.3 GiB of 6.0 GiB) in 1m 13s, read: 12.7 MiB/s, write: 12.2 MiB/s
+INFO:  56% (3.4 GiB of 6.0 GiB) in 1m 16s, read: 30.2 MiB/s, write: 27.6 MiB/s
+INFO:  57% (3.5 GiB of 6.0 GiB) in 1m 19s, read: 23.0 MiB/s, write: 21.2 MiB/s
+INFO:  60% (3.6 GiB of 6.0 GiB) in 1m 22s, read: 55.6 MiB/s, write: 35.1 MiB/s
+INFO:  64% (3.9 GiB of 6.0 GiB) in 1m 25s, read: 73.7 MiB/s, write: 24.6 MiB/s
+INFO:  65% (3.9 GiB of 6.0 GiB) in 1m 30s, read: 9.4 MiB/s, write: 9.4 MiB/s
+INFO:  90% (5.5 GiB of 6.0 GiB) in 1m 50s, read: 79.4 MiB/s, write: 6.4 MiB/s
+INFO: 100% (6.0 GiB of 6.0 GiB) in 1m 51s, read: 561.5 MiB/s, write: 21.0 MiB/s
+INFO: backup is sparse: 3.17 GiB (52%) total zero data
+INFO: transferred 6.00 GiB in 111 seconds (55.4 MiB/s)
+INFO: archive file size: 1.06GB
+INFO: Finished Backup of VM 103 (00:01:51)
+INFO: Backup finished at 2026-11-18 01:19:54
+INFO: Backup job finished successfully
+INFO: notified via target `mail-to-root`
+INFO: starting new backup job: vzdump 103 --mode snapshot --compress zstd --storage backup_storage
+INFO: Starting Backup of VM 103 (qemu)
+INFO: Backup started at 2026-11-18 16:05:16
+INFO: status = running
+INFO: VM Name: lab-db-01
+INFO: include disk 'scsi0' 'backup_storage:103/vm-103-disk-0.qcow2' 6G
+INFO: backup mode: snapshot
+INFO: ionice priority: 7
+INFO: snapshots found (not included into backup)
+INFO: creating vzdump archive '/mnt/backup/dump/vzdump-qemu-103-2026_11_18-16_05_16.vma.zst'
+INFO: issuing guest-agent 'fs-freeze' command
+INFO: starting backup via QMP command
+INFO: issuing guest-agent 'fs-thaw' command
+INFO: started backup task '216af0f6-f802-47e9-9fc2-df19bfe5807e'
+INFO: resuming VM again
+INFO:  24% (1.5 GiB of 6.0 GiB) in 3s, read: 507.5 MiB/s, write: 179.6 MiB/s
+INFO:  33% (2.0 GiB of 6.0 GiB) in 6s, read: 178.8 MiB/s, write: 177.2 MiB/s
+INFO:  43% (2.6 GiB of 6.0 GiB) in 9s, read: 197.0 MiB/s, write: 193.6 MiB/s
+INFO:  52% (3.2 GiB of 6.0 GiB) in 12s, read: 192.1 MiB/s, write: 184.6 MiB/s
+INFO:  63% (3.8 GiB of 6.0 GiB) in 15s, read: 217.5 MiB/s, write: 150.9 MiB/s
+INFO: 100% (6.0 GiB of 6.0 GiB) in 17s, read: 1.1 GiB/s, write: 125.1 MiB/s
+INFO: backup is sparse: 3.16 GiB (52%) total zero data
+INFO: transferred 6.00 GiB in 17 seconds (361.4 MiB/s)
+INFO: archive file size: 1.08GB
+INFO: Finished Backup of VM 103 (00:00:18)
+INFO: Backup finished at 2026-11-18 16:05:34
+INFO: Backup job finished successfully
+INFO: notified via target `mail-to-root`
+INFO: starting new backup job: vzdump 103 --compress zstd --mode snapshot --storage backup_storage
+INFO: Starting Backup of VM 103 (qemu)
+INFO: Backup started at 2026-11-18 18:51:31
+INFO: status = running
+INFO: VM Name: lab-db-01
+INFO: include disk 'scsi0' 'backup_storage:103/vm-103-disk-0.qcow2' 6G
+INFO: backup mode: snapshot
+INFO: ionice priority: 7
+INFO: snapshots found (not included into backup)
+INFO: creating vzdump archive '/mnt/backup/dump/vzdump-qemu-103-2026_11_18-18_51_31.vma.zst'
+INFO: issuing guest-agent 'fs-freeze' command
+INFO: starting backup via QMP command
+INFO: issuing guest-agent 'fs-thaw' command
+INFO: started backup task '2ceb9eda-61c2-4392-838f-16cc7bc073ad'
+INFO: resuming VM again
+INFO:  24% (1.5 GiB of 6.0 GiB) in 3s, read: 499.0 MiB/s, write: 171.2 MiB/s
+INFO:  33% (2.0 GiB of 6.0 GiB) in 6s, read: 186.1 MiB/s, write: 184.4 MiB/s
+INFO:  43% (2.6 GiB of 6.0 GiB) in 9s, read: 200.6 MiB/s, write: 197.2 MiB/s
+INFO:  52% (3.2 GiB of 6.0 GiB) in 12s, read: 193.3 MiB/s, write: 185.8 MiB/s
+INFO:  63% (3.8 GiB of 6.0 GiB) in 15s, read: 230.8 MiB/s, write: 159.4 MiB/s
+INFO:  98% (5.9 GiB of 6.0 GiB) in 18s, read: 698.4 MiB/s, write: 64.6 MiB/s
+INFO: 100% (6.0 GiB of 6.0 GiB) in 19s, read: 119.2 MiB/s, write: 19.4 MiB/s
+INFO: backup is sparse: 3.16 GiB (52%) total zero data
+INFO: transferred 6.00 GiB in 19 seconds (323.4 MiB/s)
+INFO: archive file size: 1.07GB
+INFO: Finished Backup of VM 103 (00:00:20)
+INFO: Backup finished at 2026-11-18 18:51:51
+INFO: Backup job finished successfully
+INFO: notified via target `mail-to-root`
+INFO: starting new backup job: vzdump 103 --compress zstd --mode snapshot --storage backup_storage
+INFO: Starting Backup of VM 103 (qemu)
+INFO: Backup started at 2026-11-18 19:34:47
+INFO: status = running
+INFO: VM Name: lab-db-01
+INFO: include disk 'scsi0' 'backup_storage:103/vm-103-disk-0.qcow2' 6G
+INFO: backup mode: snapshot
+INFO: ionice priority: 7
+INFO: snapshots found (not included into backup)
+INFO: creating vzdump archive '/mnt/backup/dump/vzdump-qemu-103-2026_11_18-19_34_47.vma.zst'
+INFO: issuing guest-agent 'fs-freeze' command
+INFO: starting backup via QMP command
+INFO: issuing guest-agent 'fs-thaw' command
+INFO: started backup task '00495704-8fd7-4eb0-a67d-2078fb6e17dc'
+INFO: resuming VM again
+INFO:  25% (1.5 GiB of 6.0 GiB) in 3s, read: 512.3 MiB/s, write: 184.5 MiB/s
+INFO:  35% (2.1 GiB of 6.0 GiB) in 6s, read: 210.2 MiB/s, write: 208.4 MiB/s
+INFO:  43% (2.6 GiB of 6.0 GiB) in 9s, read: 177.6 MiB/s, write: 174.1 MiB/s
+INFO:  53% (3.2 GiB of 6.0 GiB) in 12s, read: 187.3 MiB/s, write: 180.0 MiB/s
+INFO:  64% (3.8 GiB of 6.0 GiB) in 16s, read: 167.7 MiB/s, write: 114.2 MiB/s
+INFO: 100% (6.0 GiB of 6.0 GiB) in 19s, read: 737.0 MiB/s, write: 97.5 MiB/s
+INFO: backup is sparse: 3.08 GiB (51%) total zero data
+INFO: transferred 6.00 GiB in 19 seconds (323.4 MiB/s)
+INFO: archive file size: 1.15GB
+INFO: Finished Backup of VM 103 (00:00:19)
+INFO: Backup finished at 2026-11-18 19:35:06
+INFO: Backup job finished successfully
+INFO: notified via target `mail-to-root`
+INFO: starting new backup job: vzdump 103 --mode snapshot --compress zstd --storage backup_storage
+INFO: Starting Backup of VM 103 (qemu)
+INFO: Backup started at 2026-11-18 20:08:50
+INFO: status = running
+INFO: VM Name: lab-db-01
+INFO: include disk 'scsi0' 'backup_storage:103/vm-103-disk-0.qcow2' 6G
+INFO: backup mode: snapshot
+INFO: ionice priority: 7
+INFO: snapshots found (not included into backup)
+INFO: creating vzdump archive '/mnt/backup/dump/vzdump-qemu-103-2026_11_18-20_08_50.vma.zst'
+INFO: issuing guest-agent 'fs-freeze' command
+INFO: starting backup via QMP command
+INFO: issuing guest-agent 'fs-thaw' command
+INFO: started backup task 'ebc86767-fbd5-4795-a171-1525a4b91571'
+INFO: resuming VM again
+INFO:  24% (1.5 GiB of 6.0 GiB) in 3s, read: 502.7 MiB/s, write: 174.8 MiB/s
+INFO:  34% (2.1 GiB of 6.0 GiB) in 6s, read: 206.6 MiB/s, write: 204.8 MiB/s
+INFO:  44% (2.7 GiB of 6.0 GiB) in 9s, read: 198.2 MiB/s, write: 194.6 MiB/s
+INFO:  54% (3.3 GiB of 6.0 GiB) in 12s, read: 205.4 MiB/s, write: 197.7 MiB/s
+INFO:  68% (4.1 GiB of 6.0 GiB) in 15s, read: 281.5 MiB/s, write: 209.5 MiB/s
+INFO: 100% (6.0 GiB of 6.0 GiB) in 17s, read: 980.4 MiB/s, write: 23.6 MiB/s
+INFO: backup is sparse: 3.08 GiB (51%) total zero data
+INFO: transferred 6.00 GiB in 17 seconds (361.4 MiB/s)
+INFO: archive file size: 1.15GB
+INFO: Finished Backup of VM 103 (00:00:17)
+INFO: Backup finished at 2026-11-18 20:09:07
+INFO: Backup job finished successfully
+INFO: notified via target `mail-to-root`

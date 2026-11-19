@@ -1,0 +1,2 @@
+Trung binh (3 lan): snapshot 1.3s (mat 0.3 goi) | backup 18.9s, 1175MB (mat 0.0 goi) | rollback RTO 46.0s | restore RTO 85.6s
+PASS rollback 3/3, PASS restore 3/3, phat hien sua du lieu 3/3
