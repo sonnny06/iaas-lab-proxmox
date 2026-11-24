@@ -1,0 +1,6 @@
+
+recovery/*.vma.zst
+*.vma.zst
+*.img
+*.qcow2
+*.iso
